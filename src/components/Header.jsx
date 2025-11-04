@@ -37,7 +37,7 @@ function Header({ className = "", active }) {
             alt="Flowbite React Logo"
           /> */}
 
-          <span className="self-center !mx-0 whitespace-nowrap text-3xl  font-bold !flex !items-center dark:text-white">
+          <span className="self-center !mx-0 whitespace-nowrap text-3xl  font-bold !flex !items-center !text-white">
             {/* <GiSoccerKick className="text-5xl text-white" /> */}
             Kick
             <GiSoccerBall />
@@ -76,7 +76,7 @@ function Header({ className = "", active }) {
           <NavbarCollapse className="!bg-gray-900">
             <Link to="/">
               <NavbarLink
-                className="!text-lg bg-gray-900 cursor-pointer"
+                className="!text-lg !text-white bg-gray-900 cursor-pointer"
                 active={active == 0}
               >
                 Home
@@ -86,7 +86,7 @@ function Header({ className = "", active }) {
             <Link to="/competitions">
               {" "}
               <NavbarLink
-                className="!text-lg  bg-gray-900 cursor-pointer"
+                className="!text-lg !text-white  bg-gray-900 cursor-pointer"
                 active={active == 1}
               >
                 Competitions
@@ -95,7 +95,7 @@ function Header({ className = "", active }) {
             <Link to="/matchhub">
               {" "}
               <NavbarLink
-                className="!text-lg  bg-gray-900 cursor-pointer"
+                className="!text-lg !text-white  bg-gray-900 cursor-pointer"
                 active={active == 4}
               >
                 MatchHub
@@ -105,7 +105,7 @@ function Header({ className = "", active }) {
             <Link to="/about">
               {" "}
               <NavbarLink
-                className="!text-lg  bg-gray-900 cursor-pointer"
+                className="!text-lg !text-white  bg-gray-900 cursor-pointer"
                 active={active == 2}
               >
                 About
@@ -114,7 +114,7 @@ function Header({ className = "", active }) {
 
             <Link to="/contact">
               <NavbarLink
-                className="!text-lg  bg-gray-900 cursor-pointer"
+                className="!text-lg  !text-white bg-gray-900 cursor-pointer"
                 active={active == 3}
               >
                 Contact

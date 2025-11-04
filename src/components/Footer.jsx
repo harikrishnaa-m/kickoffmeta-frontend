@@ -27,7 +27,7 @@ function AppFooter() {
         <div className="w-full">
           <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
             <div className="flex items-center">
-              <span className="self-center !mx-0 whitespace-nowrap text-3xl  font-bold !flex !items-center dark:text-white">
+              <span className="self-center !mx-0 whitespace-nowrap text-3xl  font-bold !flex !items-center !text-white">
                 {/* <GiSoccerKick className="text-5xl text-white" /> */}
                 Kick
                 <GiSoccerBall />

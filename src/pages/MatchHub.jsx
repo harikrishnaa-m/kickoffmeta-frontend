@@ -85,7 +85,7 @@ function MatchHub({ active, setActive }) {
                       <div className="h-48 md:h-full md:w-48 bg-gray-200 flex items-center justify-center">
                         <img
                           className="h-full w-full object-cover rounded-l-xl"
-                          src={`http://localhost:3000/uploads/${item.competitionImage}`}
+                          src={`https://kickoffmeta-backend.onrender.com/uploads/${item.competitionImage}`}
                           alt="Premier League"
                         />
                       </div>
